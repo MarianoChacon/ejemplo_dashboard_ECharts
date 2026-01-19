@@ -1,0 +1,12 @@
+Lógica de funcionamiento de un proyecto con django y bootstrap en back end y css, javascript y ECharts en el front.
+
+En las vistas (views.py) se crea la función que devuelve un objeto Json (JsonResponse) con el gráfico en sí. Entonces los valores de ese gráfico
+se los paso a esa función directamente. Luego, en el front con Javascript se toma ese objeto Json y se lo muestra en el html.
+
+
+API fetch de Javascript:
+basicamente sirve para recuperar recursos, es decir, para obtener datos desde una pagina web.
+
+var definde variables a nivel global.
+let define variables  nivel local.
+const define una variable que luego no pude ser modificada.
